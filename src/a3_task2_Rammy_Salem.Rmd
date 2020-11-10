@@ -202,7 +202,9 @@ In the code chunk below, create a vector (using `c()`, as above) stored as `some
 # Your code here: 
 some_dates <- c(11061972, 02142007, 01301843) # Creates a vector of dates w/o spaces
 some_dates_converted <- mdy(some_dates) # Converts to Date, stores as some_dates_converted
-class(my_dates_converted) # Check the class
+some_dates_converted # View it
+class(some_dates_converted) # Check the class
+
 ```
 
 #### 3C. Follow me
